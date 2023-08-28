@@ -1,0 +1,31 @@
+head {
+      border: 3px color black solid;
+      text-align: center;
+}
+
+.up-section {
+    border: 3px black solid;
+    text-align: center;
+}
+
+.nav{
+    border: 3px  black solid;
+    text-align: center;
+}
+
+
+.hero {
+    border: 3px  black solid;
+    text-align: center;
+}
+
+.main-section {
+    border: 3px  black solid;
+    text-align: center;
+}
+
+
+.footer {
+    border: 3px black solid;
+    text-align: center;
+}
