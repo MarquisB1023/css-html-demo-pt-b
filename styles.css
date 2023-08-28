@@ -30,24 +30,26 @@ body{
 
 
 .hero {
-    background-image: url(https://images.pexels.com/photos/2794001/pexels-photo-2794001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-image: url(https://images.pexels.com/photos/17122728/pexels-photo-17122728/free-photo-of-a-nintendo-switch-and-a-bunch-of-super-mario-game-items.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
     background-repeat: no-repeat;
-    background-size: 1000px;
+    background-size: 1700px;
+    background-position: 90%;
    
-    border: 1px  black solid;
+
     text-align: center;
-    height: 180px;
+    height: 480px;
 }
 
 .main-section {
-    border: 1px  black solid;
+    
     text-align: center;
     height: 120px;
 }
 
 
+
 .footer {
-    border: 1px black solid;
+    background-color: lightgray;
     text-align: center;
     height: 30px;
 }
@@ -62,6 +64,16 @@ body{
 li {
     display: inline-block;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+li:hover {
+    font-size: 18px;
+    display: inline-block;
+    color: rgb(29, 255, 255);
     display: flex;
     justify-content: space-around;
     align-items: center;
