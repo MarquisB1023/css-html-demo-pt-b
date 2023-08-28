@@ -1,31 +1,57 @@
-head {
+h1 {
       border: 3px color black solid;
       text-align: center;
 }
-
+.car{
+    height: 300px;
+    weight: 500px;
+    text-align: center;
+    max-width: 1000px;
+}
+body{
+    max-height: 100vh;
+}
 .up-section {
     border: 3px black solid;
     text-align: center;
+    height: 60px;
 }
-
+/* this is nav bar */
 .nav{
-    border: 3px  black solid;
+    display:flex;
+    justify-content: center;
+    border: 1px  black solid;
     text-align: center;
+    height: 30px;
 }
 
 
 .hero {
-    border: 3px  black solid;
+    border: 1px  black solid;
     text-align: center;
+    height: 180px;
 }
 
 .main-section {
-    border: 3px  black solid;
+    border: 1px  black solid;
     text-align: center;
+    height: 120px;
 }
 
 
 .footer {
-    border: 3px black solid;
+    border: 1px black solid;
     text-align: center;
+    height: 30px;
+}
+/* this is nav buttion group */
+.nav-buttions-group{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    display: inline-block;
+
 }
