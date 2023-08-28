@@ -6,7 +6,9 @@ h1 {
     height: 300px;
     weight: 500px;
     text-align: center;
-    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 body{
     max-height: 100vh;
@@ -17,16 +19,21 @@ body{
     height: 60px;
 }
 /* this is nav bar */
-.nav{
+.nav {
     display:flex;
     justify-content: center;
     border: 1px  black solid;
     text-align: center;
     height: 30px;
+    background-color: black;
 }
 
 
 .hero {
+    background-image: url(https://images.pexels.com/photos/2794001/pexels-photo-2794001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+   
     border: 1px  black solid;
     text-align: center;
     height: 180px;
@@ -49,9 +56,14 @@ body{
     width: 350px;
     display: flex;
     justify-content: space-between;
+    color: white;
 }
 
 li {
     display: inline-block;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 }
